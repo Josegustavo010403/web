@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<title>Bienvenidos a mi pagina </title>
+	</head>
+	<body >
+		<img src="onepiece.JPG">
+		<center>
+			<h1>Tecnológico Nacional de Mexico</h1>
+			<h2>Instituto Tecnológico de Tehuacán</h2>
+			<h3>Programación Web</h3>
+		</center>
+	<hr>
+	<p>Bienvenidos a mi pagina</p>
+	<p> Mi ombre es <u>Jose Gustavo Manuel Geronimo</u> ,y estudio la materia de <b> Programacion web</b>.En esta pagina se 	abordaran temas relacionados a la web,a las bases de datos,xml,css,php,etc.</p>
+	<p>Lascarreras que ofrece el Instituto Tecnologico de Tehuacan son:</p>
+	<ol type="i" >
+		<li>Ingenieria en Sistemas Computacionales</li>
+		<li>Ingenieria Civil </li>
+		<li>Ingenieria Industrial</li>
+		<li>Ingenieria Mecatronica</li>
+		<li>Ingenieria Biomedica</li>
+		<li>Ingenieria Electronica</li>
+		<li>Ingenieria en Gestion Empresarial</li>
+		<li>Lic.en Administracion</li>
+		<li>Contador Publico</li>
+	</ol>
+<center>
+		<table border="1">
+			<tr>
+				<th>NC</th>
+				<th>Nombre</th>
+				<th>Esepecialidad</th>
+				<th>Semestre</th>
+			</tr>
+			<tr>
+				<td>21360979</td>
+				<td>Jose Gustavo</td>
+				<td>Ing.Sistemas Computacionales</td>
+				<td>7</td>
+			</tr>
+			<tr>
+				<td>22360101</td>
+				<td>Maria Ruiz</td>
+				<td>Ing.Industrial</td>
+				<td>9</td>
+			</tr>
+
+		</table>
+</center>
+		<A href="Formulario.tml">click para ir a la pagina del formulario</A>
+	</body>
+</html>

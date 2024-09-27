@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+h3{
+    color: #ff0000;
+font-style: italic;
+text-align: center;				
+}
+#mi_estilo{
+color: blue;
+text-align: right;
+
+}
+.nuestro_estilo{
+color: rgba(6, 4, 4, 0.89);
+text-align: center;
+}
+.carrusel{
+    border: 1px solid black;
+    height: 900px;
+    position: relative;
+}
+.slider{
+    height: 100%;
+}
+.flechas{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+#contenido{
+    border: 5px solid black;
+    height: 900px;
+    overflow: hidden;
+}
+.carrusel img {
+    background-color: #f0f0f0; /* Color de fondo para el espacio vacío alrededor de la imagen */
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.social-icons a{
+    display: inline-block;
+    margin: 0 10px;
+    background-image: url(css_sprites.png);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.iteminstagram {
+    width: 64px; height: 64px;
+    background: url(css_sprites.png) -10px -10px;
+}
+.itemfacebook{
+    width: 64px; height: 64px;
+    background: url(css_sprites.png) -10px -94px;
+}
+.itemtiktok{
+    width: 64px; height: 64px;
+    background: url(css_sprites.png) -94px -10px;
+}
+

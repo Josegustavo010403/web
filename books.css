@@ -1,0 +1,32 @@
+books{
+    display:           block;
+    width:             100%;
+    background-color:  gray;
+    background-position:80% 10px;
+    margin:            0;
+    font-family:       verdada, Geneva,arial;
+}
+
+book{
+    display:           block;
+    background-color:  silver;
+    width:             50%;
+    margin-bottom:     20px;
+    margin-top:        15px;
+    margin-left:       10px;
+
+}
+
+autor, publisher, price, contentType, isbn {
+    display:          block;
+    background-color: #ffe4c4;
+    font-size:        x-small;
+    margin-bottom:    2px;
+
+}
+
+title{
+    display:          block;
+    color:            maroon;
+    font-size:        medium;
+}

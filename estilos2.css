@@ -1,0 +1,22 @@
+.fondo {
+    background: url(fondo.png);
+    background-position-x: center;
+    background-position-y: -380px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.titulo {
+    background-color: dodgerblue;
+    color: aliceblue;
+    margin: 0;
+    font-family: Arial;
+}
+.sub1 {
+    background-color: dodgerblue;
+    color: aliceblue;
+    font-family: Arial;
+    padding-top: 10px;
+    width: 800px;
+    height: 40px;
+}

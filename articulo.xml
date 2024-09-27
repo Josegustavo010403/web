@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<articulo>
+<titulo>Hojas de Estilo</titulo>
+<fecha>19 de septiembre de 2024</fecha>
+<copyright>1999 Benoit Marchal</copyright>
+<resumen>Las hojas de estilo agregan flexibilidad a la visualizacion del documento</resumen>
+<palabras-clave>XML,XSL,CSS,publicacion,web</palabras-clave>
+
+<seccion>
+	<p>Envie sus comentarios y sugerencias a francisco.vg@tehuacan.tecnm.mx </p>
+</seccion>
+
+<seccion>
+<titulo> Realce</titulo>
+<p>Las hojas de estilo se heredaron de SGML,un ancestri de XML.
+Estas se originaron en las aplicaciones de publicación y de manejo de D</p>
+</seccion>
+
+<seccion>
+<titulo> Como funciona XLS</titulo>
+<p>Una hija de estilos XSL es un conjunto de normas que especifican como dar formato </p>
+</seccion>
+</articulo>

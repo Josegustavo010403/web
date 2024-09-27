@@ -1,0 +1,76 @@
+<html>
+	<head>
+		<title>Formulario de Alumnos</title>
+		<link rel="stylesheet" href="estilos2.css" />
+	</head>
+	<body class="fondo">
+		<center>
+			<h1 class="titulo">Intituto Tecnologico de Tehuacan</h1>
+			<h2 class="sub1">FORMULARIO DE ALUMNOS</h2>
+		</center>
+		<center>
+		<form action="formulario.html">
+			<table>
+			<tr>
+			<td>NC:</td>
+			<td><input type="text" name="nc"></td>
+			<tr>
+				<tr>
+					<td>Contraseña:</td>
+					<td><input type="password" name="clave"></td>
+					<tr>
+			<tr>
+			<td>Nombre:</td>
+			<td><input type="text" name="nom"></td>
+			<tr>
+			<tr>
+			<td>Especialidad:</td>
+			<td>
+				<select name="esp">
+				<option value="1"> Ing.en Sistemas Computacionales
+				<option value="2"> Ing.Civil
+				<option value="3"> Ing.Electronica
+				<option value="4"> Ing.Mecatronica
+				<option value="5"> Ing.Logistica
+				<option value="6"> Ing.Biomedica
+				<option value="7"> Ing.Bioquimica
+				<option value="8"> Ing.Gestion
+				<option value="9"> Lic.Administracion
+				<option value="10"> Contador Publico
+				<option value="11"> Ing.Gestion
+				</select>
+			</td>
+			<tr>
+				<td>Genero:</td>
+				<td>
+					<input type="radio" name="gen" value="F">Femenino<br>
+					<input type="radio" name="gen" value="M">Masculino<br>
+					<input type="radio" name="gen" value="O">Otro
+				</td>
+			</tr>
+			<tr>
+				<td>Fecha Nacimiento:</td>
+				<td><input type="text" name="fechan"></td>
+			</tr>
+			<tr>
+				<td>Fecha ingreso:</td>
+				<td><input type="text" name="fechai"></td>
+			</tr>
+			<tr>
+				<td>Escriba comentarios o sugerencias</td>
+				<td><textarea name="comenta" rows="5" cols="40">
+				</textarea></td>
+			</tr>
+			<tr>
+				<td>¿Reprobo al menos una materia?</td>
+				<td><input type="checkbox" name="reprobo" ></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="Guardar"></td>
+			</tr>
+			</table>
+		</form>
+	</center>
+	</body>
+</html>

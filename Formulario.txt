@@ -1,0 +1,13 @@
+<html>
+	<head>
+		<title>Formulario de Alumnos</title>
+	</head>
+	<body>
+		<h1>Formulario de Alumnos</h1>
+		<forma action="formulario.html">
+			NC:<input type="text" name="nc">
+			Nombre:<input type="text" name="nom">
+			Especilidad:<input type="text" name="esp">
+		</form>
+	</body>
+</html>
